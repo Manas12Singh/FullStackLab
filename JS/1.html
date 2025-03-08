@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Birthdate to Weekday</title>
+    <script>
+        function showDayOfWeek() {
+            var birthdate = document.getElementById("birthdate").value;
+            var date = new Date(birthdate);
+            var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            var day = days[date.getDay()];
+            document.getElementById("result").innerHTML = "You were born on a " + day + ".";
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Find the Weekday of Your Birthdate</h1>
+    <label for="birthdate">Enter your birthdate:</label>
+    <input type="date" id="birthdate" name="birthdate" required>
+    <button onclick="showDayOfWeek()">Find Weekday</button>
+    <p id="result"></p>
+</body>
+
+</html>

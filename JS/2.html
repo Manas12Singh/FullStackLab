@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Registration Form</title>
+    <script src="./2.js"></script>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form id="myForm" action="/submit" method="post">
+        <label for="studentId">Student ID:</label><br>
+        <input type="text" id="studentId" name="studentId" required><br><br>
+
+        <label for="name" on>Name:</label><br>
+        <input type="text" id="name" name="name" required pattern="[a-zA-Z. ]+"><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirmPassword">Confirm Password:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
