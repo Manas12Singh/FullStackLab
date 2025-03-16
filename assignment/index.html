@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Discover Dublin</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Dublin</h1>
+        <nav>
+            <ul>
+                <li><a href="historical.html">Historical Sites</a></li>
+                <li><a href="parks.html">Parks & Nature</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="nightlife.html">Nightlife</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="calculator-section">
+            <h2>Transport Fare Calculator</h2>
+            <div class="calculator">
+                <input type="text" id="name" placeholder="Your name">
+                <input type="number" id="age" placeholder="Your age">
+                <button onclick="calculateFare()">Check Fare</button>
+                <div id="fare-result"></div>
+            </div>
+
+            <h2>Restaurant Finder</h2>
+            <div class="cuisine-finder">
+                <input type="text" id="userName" placeholder="Your name">
+                <input type="text" id="cuisine" placeholder="Preferred cuisine">
+                <button onclick="showCuisine()">Find Restaurants</button>
+                <textarea id="food-result" rows="4"></textarea>
+            </div>
+        </section>
+
+        <section class="media-section">
+            <h2>Explore Dublin</h2>
+            <video controls>
+                <source src="dublin.mp4" type="video/mp4">
+                Your browser does not support video
+            </video>
+            <audio controls>
+                <source src="irishmusic.mp3" type="audio/mpeg">
+                Your browser does not support audio
+            </audio>
+            <iframe src="https://www.visitdublin.com" title="Dublin Tourism"></iframe>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
