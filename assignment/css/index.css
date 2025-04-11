@@ -26,7 +26,10 @@ body {
 
 #about{
     padding: 10px;
+    align-content: center;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 #footer {

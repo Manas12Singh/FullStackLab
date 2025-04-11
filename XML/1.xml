@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href=".css"?>
+<bookstore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="books.xsd">
+    <book>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <isbn>9780743273565</isbn>
+        <publisher>Scribner</publisher>
+        <edition>1</edition>
+        <price>10.99</price>
+    </book>
+    <book>
+        <title>To Kill a Mockingbird</title>
+        <author>Harper Lee</author>
+        <isbn>9780061120084</isbn>
+        <publisher>Harper Perennial</publisher>
+        <edition>50</edition>
+        <price>7.99</price>
+    </book>
+</bookstore>

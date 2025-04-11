@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Document</title>
+    <style>
+        * {
+            font-family: cursive;
+            margin: 10px;
+            color: crimson;
+        }
+        
+        form {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="validForm">
+        <label for="card">Select credit card: </label>
+        <select name="card" id="card">
+            <option value="Master Card">Master Card</option>
+            <option value="Visa">Visa</option>
+            <option value="American Express">American Express</option>
+        </select>
+        <br>
+        <label for="cardNumber">Enter card number: </label>
+        <input type="text" name="cardNumber" id="cardNumber">
+        <br>
+        <button type="submit">
+            Validate
+        </button>
+    </form>
+    <p id="output"></p>
+    <script src="cc.js"></script>
+</body>
+
+</html>
