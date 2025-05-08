@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Library Book Entry</title>
+</head>
+
+<body>
+    <h2>Add Book Information</h2>
+    <form method="post" action="my.php">
+        Accession Number: <input type="text" name="accession_number" required><br>
+        Title: <input type="text" name="title" required><br>
+        Authors: <input type="text" name="authors" required><br>
+        Edition: <input type="text" name="edition" required><br>
+        Publisher: <input type="text" name="publisher" required><br>
+        <input type="submit" name="submit" value="Add Book">
+    </form>
+
+    <hr>
+
+    <h2>Search Book by Title</h2>
+    <form method="post" action="my2.php">
+        Title: <input type="text" name="search_title" required>
+        <input type="submit" name="search" value="Search">
+    </form>
+
+
+
+</body>
+
+</html>
